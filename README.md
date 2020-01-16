@@ -8,6 +8,31 @@ https://www.census.gov/geographies/reference-files/2016/demo/popest/2016-fips.ht
 2019 TIGER/Line® Shapefiles: Census Tracts
 https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=Census+Tracts
 
+## Column Definitions
+https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2019/TGRSHP2019_TechDoc.pdf (jump to section 3.4.1)
+
+Field Length Type Description
+STATEFP 2 String Current state FIPS code
+COUNTYFP 3 String Current county FIPS code
+TRACTCE 6 String Current census tract code
+GEOID 11 String
+Census tract identifier; a concatenation of Current
+state FIPS code, county FIPS code, and census tract
+code
+NAME 7 String
+Current census tract name, this is the census tract
+code converted to an integer or integer plus 2-
+character decimal if the last two characters of the
+code are not both zeros.
+NAMELSAD 20 String Current translated legal/statistical area description
+and the census tract name
+MTFCC 5 String MAF/TIGER feature class code (G5020)
+FUNCSTAT 1 String Current functional status
+ALAND 14 Number Current land area
+AWATER 14 Number Current water area
+INTPTLAT 11 String Current latitude of the internal point
+INTPTLON 12 String Current longitude of the internal point
+
 
 ## Helpful Others
 
