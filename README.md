@@ -11,18 +11,18 @@ https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2019&layergroup=Cen
 ## Column Definitions
 https://www2.census.gov/geo/pdfs/maps-data/data/tiger/tgrshp2019/TGRSHP2019_TechDoc.pdf (jump to section 3.4.1)
 
-STATEFP = state FIPS code
-COUNTYFP = county FIPS code
-TRACTCE = census tract code
-GEOID = Census tract identifier; a concatenation of Current state FIPS code, county FIPS code, and census tract code
-NAME = Current census tract name, this is the census tract code converted to an integer or integer plus 2- character decimal if the last two characters of the code are not both zeros.
-NAMELSAD = translated legal/statistical area description and the census tract name
-MTFCC = MAF/TIGER feature class code (G5020)
-FUNCSTAT = functional status
-ALAND = land area
-AWATER = water area
-INTPTLAT = latitude of the internal point
-INTPTLON = longitude of the internal point
+* STATEFP = state FIPS code
+* COUNTYFP = county FIPS code
+* TRACTCE = census tract code
+* GEOID = Census tract identifier; a concatenation of Current state FIPS code, county FIPS code, and census tract code
+* NAME = Current census tract name, this is the census tract code converted to an integer or integer plus 2- character decimal if the last two characters of the code are not both zeros.
+* NAMELSAD = translated legal/statistical area description and the census tract name
+* MTFCC = MAF/TIGER feature class code (G5020)
+* FUNCSTAT = functional status
+* ALAND = land area
+* AWATER = water area
+* INTPTLAT = latitude of the internal point
+* INTPTLON = longitude of the internal point
 
 
 ## Helpful Others
